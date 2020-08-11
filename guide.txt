@@ -1,0 +1,18 @@
+http-server(https://github.com/http-party/http-server)
+
+Installation Guide (https://askubuntu.com/questions/15782/how-do-i-share-a-folder-with-another-linux-machine-on-the-same-home-network)
+
+Step 1:Install nodejs (https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04)
+	Run sudo apt install nodejs
+	Run sudo apt install npm
+
+Step 2:Install http-server
+	Run sudo npm install -g http-server
+
+Step 3:Run the server
+	Run http-server -o (inside the folder you want to share)
+
+Step 4:Access the file
+	You can access the file in all machines in the same network by the IP address provided by the output of the command
+	
+
